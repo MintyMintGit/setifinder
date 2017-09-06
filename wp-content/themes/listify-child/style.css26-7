@@ -1,0 +1,28 @@
+/*
+Theme Name:     Listify Child
+Theme URI:      https://astoundify.com/products/listify/
+Template:       listify
+Version:        1.0
+*/
+.job_listing-entry-footer {
+    display: none;
+}
+.select.wpcf7-form-control-wrapper {
+
+    width: 100%;
+}
+.wpcf7-form-control.wpcf7-select {
+    min-width: 100%;
+border: medium none;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+    display: none !important;
+}
+.red{color:red;font-size:20px;}
+div.wpcf7-mail-sent-ok {
+    border: medium none;
+    color: green;
+}
+.single-job_listing .listing_labels {
+    display: none;
+}

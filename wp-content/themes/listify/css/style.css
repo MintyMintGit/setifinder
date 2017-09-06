@@ -1,0 +1,438 @@
+/*Theme Name:     Listify Child
+Theme URI:      https://astoundify.com/products/listify/
+Template:       listify
+Version:        1.0*/
+.job_listing-entry-footer {    display: none;}.select.wpcf7-form-control-wrapper {    width: 100%;}.wpcf7-form-control.wpcf7-select {    min-width: 100%;border: medium none;}.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {    display: none !important;}.red{color:red;font-size:20px;}div.wpcf7-mail-sent-ok {    border: medium none;    color: green;}.single-job_listing .listing_labels {    display: none;}.entry-cover--gradient.has-image::after, .has-image.listing-cover--gradient::after{background:rgba(0, 0, 0, 0) linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0px, rgba(0, 0, 0, 0.14) 30%, rgba(0, 0, 0, 0.35) 70%, rgba(0, 0, 0, 0.01)) repeat scroll 0 0;}.has-image.entry-cover--home::after, .has-image.entry-cover::after, .has-image.listing-cover::after, .has-image.page-cover::after, .listify-cover.has-image::after{background:rgba(0, 0, 0, 0.15) none repeat scroll 0 0;}.listing-entry-company-image--single .listing-entry-company-image__img, .job_listing-location.job_listing-location-none, .content-single-job_listing-title-category{visibility:hidden}.post-type-archive-job_listing .showing_jobs.showing_jobs--has-meta.wp-job-manager-showing-all {    display: none !important;}.content-single-job_listing-hero-company .job_listing-title {
+    bottom: -43px;
+    font-size: 34px;
+    position: absolute;
+}
+.content-single-job_listing-hero-actions{bottom:-43px;}@media (min-width: 992px) {.home-widget-title {    font-size: 42px;    line-height: normal;}.fieldset-lng, .fieldset-lat {
+    display: none;
+}}
+
+.content-box, .content-shop-wrapper .archive-job_listing-filters-wrapper.top.type-product, .content-shop-wrapper .type-product, .home-feature, .job-package, .job_filters, .listify_widget_search_listings.home-widget .archive-job_listing-filters-wrapper.top.job_search_form, .listify_widget_search_listings.home-widget .job_search_form, .listing-by-term-inner, .single-job_listing-description, .tabbed-listings-tabs a, .tabbed-listings-tabs a.archive-job_listing-filters-wrapper.top, .type-product .thumbnails a, .type-product .thumbnails a.archive-job_listing-filters-wrapper.top, .widget, .woocommerce div.product div.archive-job_listing-filters-wrapper.top.summary, .woocommerce div.product div.summary, .woocommerce-main-image, .woocommerce-page div.product div.archive-job_listing-filters-wrapper.top.summary, .woocommerce-page div.product div.summary, .woocommerce-tabs, .archive-job_listing-layout, .nav-menu .children.category-list .category-count, .nav-menu .sub-menu.category-list .category-count, ul.nav-menu .children.category-list .category-count, ul.nav-menu .sub-menu.category-list .category-count, .facetwp-pager .facetwp-page, .job-manager-pagination li a, .job-manager-pagination li span, .js-toggle-area-trigger, .site .facetwp-sort select, a.page-numbers, span.page-numbers, .archive-job_listing-toggle-inner {
+    background-color: #ffffff;
+    /*box-shadow: inset 0 0 0 1px #ededed !important;*/
+    border: 1px solid #ededed;
+/*-webkit-box-shadow:inset 0 0 0 1px #ededed !important;*/
+	/*-moz-box-shadow:inset 0 0 0 1px #ededed !important;*/
+}
+.col-sm-6.col-height-sm.no-gutter.insurance-img-container.col-middle {
+    background: url(/wp-content/uploads/2017/08/0_909b6_da0c808c_orig.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.row.row-height-sm {
+    background-color: #4891e3;
+    color: #fff;
+}
+.text-center.insurance-heading-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    background: rgba(128, 128, 128, 0.59);
+    text-align: center;
+}
+.col-sm-6.text-xs-center.text-sm-left.insurance-text.col-height-sm.col-middle {
+    padding: 80px;
+}
+.col-sm-8.insurance-info-col h4 {
+    font-size: 16px;
+    line-height: 25px;
+}
+button.btn.btn-sm.btn-success.classic {
+    background-color: #ef3652;
+    border: none;
+    box-shadow: none !important;
+    color: white;
+    padding: 10px 26px 10px 26px;
+    transition: 0.5s all;
+}
+button.btn.btn-sm.btn-success.classic:hover {
+    background: #d22741;
+    transition: 0.5s all;
+}
+.text-center.insurance-heading-container img {
+    max-width: 70px;
+    top: -42px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 95px;
+    margin-left: -24px;
+    left: 50%;
+}
+.center_blocking {
+    max-width: 440px;
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: left;
+}
+.content-area_site {
+    text-align: left !important;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100px;
+    padding: 80px;
+}
+.input_a_enter_title_selected {
+    max-width: 440px;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    margin-top: 25px;
+}
+.input_a_enter_title_selected div {
+    font-size: 16px;
+    display: inline-block;
+    width: 50%;
+    /* background: #f58383; */
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.52);
+    border-right: 0;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.input_a_enter_title_selected_commercial {
+    border-right:  1px solid rgba(128, 128, 128, 0.52) !important;
+}
+.hover_block {
+    background: #32BA55;
+    color: white;
+}
+
+.goinput_a_enter_one_blocks{
+    display: none;
+}
+.goinput_a_enter_two_blocks{
+    display: none;
+}
+.input_a_enter_one_blocks_all img {
+    max-width: 150px;
+    margin-right: 15px;
+}
+.input_a_enter_one_blocks_all {
+    border: 1px solid rgba(128, 128, 128, 0.52);
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-size: 0;
+}
+.form_custom_all_two {
+    margin-bottom: 150px;
+}
+.form_custom_all_three {
+    margin-bottom: 150px;
+}
+.input_a_enter_one_blocks_all.input_a_bt {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.52);
+}
+.line_prg_all_green {
+    height: 7px;
+    background: rgba(220, 220, 220, 0.57);
+    font-size: 0;
+    margin-bottom: 25px;
+}
+.line_prg_all_green div {
+    height: 9px;
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
+}
+.line_prg_all_greenback_center {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.line_prg_all_greenback_center div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    width: 50%;
+}
+.line_prg_all_greenback_btt {
+    color: grey;
+    font-size: 14px !important;
+    text-align: left;
+    padding: 15px;
+}
+.line_prg_all_greenback_bttnext {
+    color: white;
+    font-size: 14px !important;
+    text-align: center;
+    background: green;
+    max-width: 200px;
+    padding: 15px;
+}
+.line_prg_all_greenback_btt {
+    visibility: hidden;
+}
+.line_prg_all_greenback_bttnext {
+  //  visibility: hidden;
+    opicity: 1;
+}
+.center_blocking_steptwo {
+    display: none;
+}
+.center_blocking_stepthree {
+    display: none;
+}
+
+.line_prg_all_green_step1 {
+    background: green;
+}
+.line_prg_all_greenback_bttnextnext_step_fin {
+    color: white;
+    font-size: 14px !important;
+    text-align: center;
+    background: green;
+    max-width: 200px;
+    padding: 15px;
+    display: none !important;
+    opacity: 0;
+}
+
+.center_blocking_stepthree{
+    display: none;
+}
+.line_prg_all_greenback_bttnext {
+    cursor: pointer;
+}
+.check_block_ownerid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span.renge_bottomsing {
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 15px;
+}
+.input_select_selfloss {
+    max-width: 220px;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+    margin-top: 20px;
+}
+.input_sele_gof {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.51);
+    padding: 8px;
+    cursor: pointer;
+}
+.check_block_ownerid span {
+    margin-left: 10px;
+}
+.input_sele_gof.input_select_self_blocks_grey {
+    border-right: none;
+}
+.input-group-flat {
+    max-width: 290px;
+    width: 100%;
+    font-size: 0px;
+}
+input.form-control.input-group-flat--itemt-ar {
+    padding: 7px;
+}
+.input-group-flat--btn.input-group-flat--btn__type_ad {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+input.form-control.input-group-flat--itemt-ar {
+    padding: 7px;
+}
+.center_blocking_stepfhite {
+ //   display: none;
+}
+
+.center_blocking_stepfour {
+    display: none;
+}
+.search-radius-wrapper.in-use {
+    padding: 15px !important;
+}
+.filter_wide.filter_by_tag.astoundify-listing-labels {
+    padding: 15px !important;
+}
+.search_jobs {
+    padding: 15px !important;
+}
+.center_blocking_stepsix {
+    display: none;
+}
+.center_blocking_stepsix h2 {
+    margin-bottom: 50px;
+}
+.center_blocking_stepsix .login-username label {
+    display: block !important;
+}
+.center_blocking_stepsix .login-password label {
+    display: block !important;
+}
+
+.image_thembion {
+    width: 38%;
+    height: 147px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search_location {
+    top: -14px !important;
+}
+.form_imail_refins span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 4px;
+    margin-top: 15px;
+}
+.center_blocking_stepfhite {
+    display: none;
+}
+.dutting_resolt {
+    color: white;
+    font-size: 14px !important;
+    text-align: center;
+    background: green;
+    max-width: 200px;
+    padding: 15px;
+    margin-top: 31px;
+}
+textarea.title_message_body {
+    min-height: 250px;
+    resize: none;
+}
+.form_go_message input {
+    width: 100%;
+}
+.center_blocking2 {
+    max-width: 650px;
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: left;
+}
+.job_filters .search_location {
+    top: 0 !important;
+}
+
+.input_a_enter_one_blocks_all:hover {
+    border-color: #ef3652;
+    transition: 0.5s all;
+}
+.input_a_ent_center {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 62%;
+    padding: 0;
+    font-size: 17px;
+}
+.form_custom_all_one_add_dop {
+    display: none;
+}
+.home-widget-section-title h2 {
+    font-size: 28px !important;
+}
+.input_a_ent_center span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.slick-list {
+    height: 500px !important;
+    width: 100% !important;
+}
+.slick-slide img {
+    width: 100% !important;
+
+}
+.slick-slide img {
+    max-height: 500px !important;
+}
+.listing-gallery-nav.slick-initialized.slick-slider.slick-dotted {
+    height: 14px !important;
+}
+.listing-gallery.slick-initialized.slick-slider .slick-list.draggable {
+    height: 150px !important;
+}
+a.input_a_enter_one_blocks_all.hover_none {
+    display: block;
+    color: black;
+}
+a.input_a_enter_one_blocks_all.hover_once {
+    display: block;
+}
+a.input_a_enter_one_blocks_all span {
+    color: black !important;
+}
+.ui-spinner-up .ui-icon:after {
+    display: inline-block;
+    content: '+';
+}
+.ui-spinner-down .ui-icon:after {
+    display: inline-block;
+    content: '-';
+}
+.ui-spinner .ui-spinner-button:active, .ui-spinner .ui-spinner-button:focus, .ui-spinner .ui-spinner-button:hover {
+    border: none;
+    background: 0 0;
+    color: #A4AAB3;
+    border-left: 1px solid rgba(0,0,0,.08);
+}
+.ui-spinner .ui-spinner-button .ui-icon {
+    background: 0 0;
+    font-size: 18px;
+    line-height: 14px;
+    text-indent: 0;
+    vertical-align: middle;
+}
+.ui-spinner.ui-widget-content {
+    width: 100%;
+    height: 48px;
+    background-color: #FFF;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: visible;
+}
+.become-host-onboard-section-location-details input {
+    width: 100% !important;
+}
+a.input_a_enter_one_blocks_all {
+    overflow: hidden;
+}
+.slick-list.draggable {
+    min-height: 600px !important;
+}
+
+
+.col-xs-8.become-host-onboard-col label {
+    font-size: 15px;
+    margin-bottom: 9px;
+    display: block;
+    margin-top: 15px;
+}
+#temp {
+display: none;
+}
+
+
+
+
+
+
+
+
